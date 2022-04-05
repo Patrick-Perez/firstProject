@@ -1,0 +1,106 @@
+*{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.sectionZero{
+    background-image: url("img/1.png");
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    height: 500px;
+}
+h1,p{
+    text-align: center;
+    width: 50%;
+}
+a{
+    background-color: gray;
+    text-decoration: none;
+    padding: .5em 1.5em;
+    margin: 0 auto;
+}
+section{
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    height: 200px;
+}
+section h2{
+    text-align: center;
+    margin: auto;
+}
+section p{
+    flex-basis: 320px;
+    color: black;
+}
+article{
+    justify-content: center;
+    display: flex;
+    gap: 2em;
+}
+.sectionTwo{
+    background-color: gray;
+    height: 500px;
+}
+div{
+    background-color: white;
+    width: 200px;
+}
+div h3, p{
+    text-align: center;
+    margin: 20px 0px;
+}
+div p{
+    width: auto;
+}
+img{
+    width: 200px;
+}
+.sectionThree{
+    flex-direction: column;
+}
+.sectionThree h2{
+    margin: 0;
+}
+.sectionThree article p{
+    flex-basis: auto;
+    width: 80%;
+}
+.sectionFinal{
+    align-content: initial;
+}
+.div1{
+    background-color: dodgerblue;
+    width: 50%;
+}
+.div1 h2, .div1 p, .div2 h2, .div2 p{
+    padding: 0 10px;
+}
+.div1 h2, .div2 h2{
+    padding: 25px;
+}
+.div2{
+    background-color: gray;
+    width: 50%;
+}
+.final{
+    display: unset;
+}
+.creditos{
+    justify-content: space-around;
+    background-color: black;
+    display: flex;
+}
+h1, p, a, .div1 h2, .div1 p, .div2 h2, .div2 p, .creditos p{
+    color: white;
+}
+span{
+    color: dodgerblue;
+}

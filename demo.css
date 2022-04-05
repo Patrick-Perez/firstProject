@@ -1,0 +1,13 @@
+/* *{
+    outline: 1px solid yellow;
+} */
+html{
+    scroll-behavior: smooth;
+}
+.table > div {
+    display: flex;
+}
+.table > div > div {
+    width: 15%;
+    border: 1px solid red;
+}
